@@ -1,0 +1,23 @@
+===TABELA SIMBOLA===
+IME  REDNI BROJ  LOKAL/GLOBAL  BROJ SECKIJE  VREDNOST  
+a 0 g 6 8
+d 1 g Aps 5
+a 2 g 0 0
+b 3 g 5 26
+c 4 g UND  0
+data 5 l 5 33
+text 6 l 6 32
+e 7 l 6 25
+===TABELA RELOKACIJE===
+section == -1 == 5 == 
+a == 30 == 0 == R_386_32
+section == -1 == 6 == 
+a == 11 == 0 == R_386_32
+e == 24 == 6 == R_386_32
+a == 29 == 0 == R_386_32
+c == 32 == 4 == R_386_32
+===KOD===
+section: 5
+64 0 2c 1 66 24 fe fe ff 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74 80 0 0 68 14 0 
+section: 6
+0 0 0 0 0 0 0 0 60 80 0 42 68 80 c8 0 28 7c 2a 28 64 80 1 0 2c 64 0 0 0 6e 0 0 

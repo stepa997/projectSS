@@ -1,0 +1,21 @@
+.global a, d
+.global a,b
+.extern c
+.equ d, 5
+.section data
+movw $300, %r3
+call *a(%pc)
+.word 100
+.skip 16
+b:
+subw a, 20(%r4)
+.section text
+skip 8
+a:
+movb a, (%r1)
+addb 200, %r4
+mulw %r5, %r4
+movw e, %r6
+e:
+movw $a, c(%r7)
+.end
